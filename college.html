@@ -1,0 +1,186 @@
+<section class="about-section">
+  <div class="container">
+    <!-- About Content -->
+    <div class="about-content">
+      <div class="text-content">
+        <h1>About CFI</h1>
+        <p>
+          <strong>Coder Fuel Infotech Pvt. Ltd.</strong> is an emerging IT company addressing key needs in IT-Services, Web Development, Digital Marketing, Branding, Product Packaging, Consulting, Training, and more.
+        </p>
+        <p>
+          We are committed to providing client-focused, high-quality services while fostering long-term relationships and anticipating client needs.
+        </p>
+      </div>
+      <div class="video-content">
+        <div class="video-frame">
+          <video controls autoplay muted loop>
+            <source src="./intro-video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vision and Mission Section -->
+    <div class="vision-mission-section">
+      <div class="card vision">
+        <div class="icon-circle">
+          <i class="fas fa-eye"></i>
+        </div>
+        <h2>CFI-EdTECH Vision</h2>
+        <p>
+          To become the leading provider of integrated IT solutions and promote widespread IT literacy.
+        </p>
+      </div>
+      <div class="card mission">
+        <div class="icon-circle">
+          <i class="fas fa-bullseye"></i>
+        </div>
+        <h2>CFI-EdTECH Mission</h2>
+        <p>
+          Delivering e-skills for the next generation of programmers and providing expertise in technology.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+/* General Section Styling */
+.about-section {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #f9f5ff, #f3e9fc);
+  padding: 70px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* About Content Styling */
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 80px;
+}
+
+.text-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.text-content h1 {
+  font-size: 2.8rem;
+  color: #6a1b9a;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  line-height: 1.8;
+  color: #4a3f57;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.video-content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.video-frame {
+  border: 5px solid #6a1b9a;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(106, 27, 154, 0.3);
+}
+
+.video-frame video {
+  width: 100%;
+  height: auto;
+}
+
+/* Vision and Mission Section */
+.vision-mission-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  max-width: 500px;
+  padding: 40px;
+  background: linear-gradient(145deg, #f6ecfc, #e8d4f9);
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(106, 27, 154, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(106, 27, 154, 0.4);
+}
+
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  background: #6a1b9a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.icon-circle i {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  color: #6a1b9a;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 1.1rem;
+  color: #4a3f57;
+  line-height: 1.6;
+}
+
+/* Decorative Shapes */
+.about-section::before,
+.about-section::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.about-section::before {
+  width: 150px;
+  height: 150px;
+  background: rgba(106, 27, 154, 0.1);
+  top: -50px;
+  left: 10%;
+}
+
+.about-section::after {
+  width: 200px;
+  height: 200px;
+  background: rgba(106, 27, 154, 0.1);
+  bottom: -60px;
+  right: 20%;
+}
+</style>

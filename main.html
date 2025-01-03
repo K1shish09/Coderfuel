@@ -1,0 +1,195 @@
+<section class="campus-services">
+    <div class="container">
+      <h1 class="section-title">Our Campus Services</h1>
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div class="icon-wrapper">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h2>On-Site Industrial Internship</h2>
+          <p>
+            Designed for final-year students, this program allows you to complete internships on campus, eliminating the need for travel. Gain hands-on experience with expert mentorship.
+          </p>
+          <div class="domains">
+            <h3>Domains:</h3>
+            <ul>
+              <li>Web Development</li>
+              <li>Data Analytics</li>
+              <li>App Development</li>
+            </ul>
+          </div>
+          <a href="#" class="btn-details">Learn More</a>
+        </div>
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div class="icon-wrapper">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <h2>On-Site Professional Training</h2>
+          <p>
+            Get professional training on the latest technologies directly on campus. Expert trainers ensure you gain valuable skills without leaving your college premises.
+          </p>
+          <div class="domains">
+            <h3>Domains:</h3>
+            <ul>
+              <li>React Development</li>
+              <li>Big Data & Hadoop</li>
+              <li>Python Development</li>
+            </ul>
+          </div>
+          <a href="#" class="btn-details">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <style>
+  /* General Section Styling */
+  .campus-services {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f8f3fc, #ece3f8);
+    padding: 60px 20px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    font-size: 2.8rem;
+    color: #6a1b9a;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  .section-title::after {
+    content: '';
+    width: 70px;
+    height: 4px;
+    background: #6a1b9a;
+    display: block;
+    margin: 15px auto 0;
+    border-radius: 2px;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+  }
+  
+  /* Service Card Styling */
+  .service-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(106, 27, 154, 0.3);
+  }
+  
+  .service-card::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: rgba(106, 27, 154, 0.1);
+    border-radius: 50%;
+    top: -40px;
+    right: -40px;
+    z-index: -1;
+  }
+  
+  .icon-wrapper {
+    width: 70px;
+    height: 70px;
+    background: #6a1b9a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.8rem;
+    transition: background 0.3s ease;
+  }
+  
+  .service-card:hover .icon-wrapper {
+    background: #4a3f57;
+  }
+  
+  .service-card h2 {
+    font-size: 1.6rem;
+    color: #6a1b9a;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  .service-card p {
+    font-size: 1rem;
+    color: #4a3f57;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .domains h3 {
+    font-size: 1.2rem;
+    color: #6a1b9a;
+    margin-bottom: 10px;
+  }
+  
+  .domains ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .domains ul li {
+    font-size: 1rem;
+    color: #4a3f57;
+    margin: 5px 0;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .domains ul li::before {
+    content: '✔';
+    color: #6a1b9a;
+    font-size: 1rem;
+    position: absolute;
+    left: 0;
+  }
+  
+  /* Button Styling */
+  .btn-details {
+    display: inline-block;
+    background: #6a1b9a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .btn-details:hover {
+    background: #4a3f57;
+    transform: translateY(-2px);
+  }
+  </style>
+  
